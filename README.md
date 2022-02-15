@@ -1,7 +1,13 @@
 # myfirstpackage 
-This library was created as an example of how to publish your own python package. 
+This library was created as an example showing how to publish your own Python package. 
 
-# How to install
-Blah blah blah... 
+# building this package locally 
+python setup.py sdist 
+
+# installing this package from GitHub 
+pip install git+https://github.com/HakimBalogun/myfirstpackage.git 
+
+# updating this package from GitHub 
+pip install --upgrade git+https://github.com/HakimBalogun/myfirstpackage.git 
 
 # The End! 
